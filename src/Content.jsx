@@ -33,6 +33,7 @@ import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
 import project4 from "./assets/images/Projects/img4.png";
 import project5 from "./assets/images/Projects/img5.png";
+import projecst5 from "./assets/images/Projects/img05.png";
 
 import person_project from "./assets/images/Projects/person.png";
 
@@ -230,16 +231,34 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "HYDROGENPAY",
+        title: "HYDROGENPAY FINTECH",
         image: project0,
         link:"https://dashboard.hydrogenpay.com/login",
         description: "The Hydrogen payment application enables users to onboard by signing up, logging in, requesting products, and retrieving login credentials for seamless access to services."
       },
       {
-        title: "HYDROGENPAY",
+        title: "AWARRI AI",
         image: project00,
         link:"https://backoffice-langeasy-tk7ash3eaa-uc.a.run.app/",
         description: "The AI app streamlines the quality assurance workflow by annotating and auditing collected data, improving efficiency in data analysis"
+      },
+      {
+        title: "LMS STUDENT REGISTRATION PORTAL",
+        image: project4,
+        link:"https://student-portal-form.vercel.app/",
+        description:"An LMS student registration app for SAIL Innovation Lab allows candidates to enroll in Tech Talent, STEM, or Data Science programs seamlessly.",
+      },
+      {
+        title: "LMS ADMINISTRATIVE PORTAL",
+        image: project5,
+        link:"https://ssmp-admin-portal.vercel.app/",
+        description:"An administrative backoffice app for the LMS registration allows management to oversee and control the enrollment process, ensuring smooth operation and tracking",
+      },
+      {
+        title: "RUTHINAS CONCEPTZ",
+        image: projecst5,
+        link:"https://ruthinaconcept.netlify.app/",
+        description:"A socal-influencer app that allows users to request services from Ruthina, a versatile performer specializing in voice-overs for commercials, narration, audiobooks, animations, and more, as well as video presentations for corporate training, online tutorials, and event hosting.",
       },
       {
         title: "BANK TOKEN OTP GENERATOR",
@@ -258,18 +277,6 @@ export const content = {
         image: project3,
         link:"https://random-quote-generate.vercel.app/",
         description:"An API random quote generator provides users with random quotes on demand, ideal for apps, websites, or inspiration tools.",
-      },
-      {
-        title: "LMS STUDENT REGISTRATION PORTAL",
-        image: project4,
-        link:"https://student-portal-form.vercel.app/",
-        description:"An LMS student registration app for SAIL Innovation Lab allows candidates to enroll in Tech Talent, STEM, or Data Science programs seamlessly.",
-      },
-      {
-        title: "LMS ADMINISTRATIVE PORTAL",
-        image: project5,
-        link:"https://ssmp-admin-portal.vercel.app/",
-        description:"An administrative backoffice app for the LMS registration allows management to oversee and control the enrollment process, ensuring smooth operation and tracking",
       },
     ],
   },
