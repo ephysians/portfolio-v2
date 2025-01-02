@@ -10,7 +10,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="w-full flex justify-center">
+    <div className="w-full flex justify-center border-4">
       <div onClick={()=>setShowMenu(true)} className=" cursor-pointer fixed top-10 left-10 z-[999] rounded-lg bg-white/40 p-2">
         <HiMenuAlt2 size={34} />
       </div>

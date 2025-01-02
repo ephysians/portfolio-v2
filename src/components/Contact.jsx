@@ -20,9 +20,7 @@ const Contact = () => {
     "template_yftub7f",
     form.current, 
    "BC5OPGEF_VGK79y1Z"
-
-    )
-      .then(
+    ).then(
         (result) => {
           console.log(result.text);
           // The line below clear the input values
@@ -38,9 +36,8 @@ const Contact = () => {
   };
 
 
-
   return (
-    <section id="contact" className="bg-dark_primary text-white">
+    <section id="contact" className="bg-primaryLinear text-white">
       <Toaster />
       <div className="md:container px-5 py-14">
        

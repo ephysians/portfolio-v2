@@ -21,6 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         primaryLinear: "linear-gradient(180deg, #081c15 0.48%,rgb(150, 168, 185) 100%)",
+        primaryLinear: "linear-gradient(180deg, #081c15 0.48%,rgb(117, 131, 145) 100%)",
       },
     
       dropShadow: {

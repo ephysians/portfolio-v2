@@ -48,7 +48,7 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsGithub, BsInstagram } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiCustomerService2Line, RiProjectorLine } from "react-icons/ri";
@@ -324,25 +324,31 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "emlighttechnologies2022@gmail.com",
+        text: "chukwukere_emmanuel@proton.me",
         icon: GrMail,
-        link: "emlighttechnologies2022@gmail.com",
+        link: "chukwukere_emmanuel@proton.me",
       },
       {
-        text: "+2349 3810 4041",
+        text: "+234 7071 578 772",
         icon: MdCall,
-        link: "https://wa.me/+234938104041",
+        link: "https://wa.me/+23471578772",
       },
       {
-        text: "ephysians",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/ephysians/",
+        text: "emmanuel-chuks",
+        icon: BsLinkedin,
+        link: "https://www.linkedin.com/in/emmanuel-chuks/",
       },
       {
         text: "@ephysians",
         icon: BsGithub,
         link: "https://github.com/ephysians/",
       },
+      {
+        text: "ephysians",
+        icon: BsInstagram,
+        link: "https://www.instagram.com/ephysians/",
+      },
+      
     ],
   },
   Footer: {
