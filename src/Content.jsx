@@ -26,6 +26,8 @@ import services_logo3 from "./assets/images/Services/logo3.png";
 import services_logo5 from "./assets/images/Services/logo5.png";
 
 // import Project images
+import project0 from "./assets/images/Projects/img0.png";
+import project00 from "./assets/images/Projects/img00.png";
 import project1 from "./assets/images/Projects/img1.png";
 import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
@@ -228,42 +230,46 @@ export const content = {
     image: person_project,
     project_content: [
       {
+        title: "HYDROGENPAY",
+        image: project0,
+        link:"https://dashboard.hydrogenpay.com/login",
+        description: "The Hydrogen payment application enables users to onboard by signing up, logging in, requesting products, and retrieving login credentials for seamless access to services."
+      },
+      {
+        title: "HYDROGENPAY",
+        image: project00,
+        link:"https://backoffice-langeasy-tk7ash3eaa-uc.a.run.app/",
+        description: "The AI app streamlines the quality assurance workflow by annotating and auditing collected data, improving efficiency in data analysis"
+      },
+      {
         title: "BANK TOKEN OTP GENERATOR",
         image: project1,
         link:"https://magnificent-palmier-e34b42.netlify.app/",
-        description: "Software application embedded inside a hardware used by banks and financial institutions to provide an additional layer of security for online banking transactions"
-
+        description: "A software application embedded in hardware used by banks to enhance security for online transactions."
       },
       {
         title: "SCHEDULE TRACKER",
         image: project2,
         link:"https://hilarious-daifuku-bc7205.netlify.app/",
-        description:"A task tracker application is a software tool used to manage and track tasks or projects within a team or organization. The application allows users to create tasks, assign them to team members, set deadlines, track progress, and communicate about the",
-
+        description:"A task tracker application helps teams manage tasks by allowing users to create, assign, set deadlines, track progress, and communicate efficiently.",
       },
       {
         title: "API RANDOM QUOTE GENERATOR",
         image: project3,
         link:"https://random-quote-generate.vercel.app/",
-        description:"",
+        description:"An API random quote generator provides users with random quotes on demand, ideal for apps, websites, or inspiration tools.",
       },
       {
         title: "LMS STUDENT REGISTRATION PORTAL",
         image: project4,
         link:"https://student-portal-form.vercel.app/",
-        description:" ",
+        description:"An LMS student registration app for SAIL Innovation Lab allows candidates to enroll in Tech Talent, STEM, or Data Science programs seamlessly.",
       },
       {
         title: "LMS ADMINISTRATIVE PORTAL",
         image: project5,
         link:"https://ssmp-admin-portal.vercel.app/",
-        description:"",
-      },
-      {
-        title: "Gym Website",
-        image: project1,
-        link:"https://ssmp-admin-portal.vercel.app/",
-        description:"",
+        description:"An administrative backoffice app for the LMS registration allows management to oversee and control the enrollment process, ensuring smooth operation and tracking",
       },
     ],
   },
