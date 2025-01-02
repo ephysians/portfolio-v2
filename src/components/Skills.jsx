@@ -46,14 +46,11 @@ const Skills = () => {
           <h6>{selectSkill?.name}</h6>
         </div>
         <br />
-        <ul className="list-decimal px-4 font-poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-          <li>amet consectetur Lorem ipsum dolor sit ame.</li>
-          <li>ipsum dolo Lorem ipsum dolor sit amet consectetur .</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing ipsum dolor sit.</li>
-          <li>Lorem ipsum dolor sit,adipisicing elit. Odio voluptatibus sequi amet?.</li>
-          <li>dolor sit amet consectetur adipisicing elit. Facere voluptas?.</li>
-        </ul>
+        <div>
+          <p>
+        {selectSkill?.descriptionLine1}
+          </p>
+        </div>
         <br />
         <div className="flex justify-end">
           <button onClick={closeModal} className="btn bg-teal-200 border-none ">
