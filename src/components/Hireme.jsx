@@ -3,9 +3,8 @@ import { content } from "../Content";
 const Hireme = () => {
   const { Hireme } = content;
   const openResume = () => {
-    window.open('https://drive.google.com/file/d/1ep2K0uwV4wFt6MFxDi-JtdIDNP2ltxjg/view', '_blank');
+    window.open('https://drive.google.com/file/d/1fvuy4ETlR5-_G73tYwlNeDZvb4zh1Nhm/view?usp=sharing', '_blank');
   };
-
   return (
     <section className="bg-bg_light_primary" id="hireme">
       <div className="md:container px-5 pt-14">
@@ -34,6 +33,7 @@ const Hireme = () => {
               {Hireme.para}
             </p>
             <br />
+            
             <button
               className="btn bg-dark_primary text-white" >
               {Hireme.btnText}
