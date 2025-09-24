@@ -84,15 +84,15 @@ export const content = {
     },
   ],
   hero: {
-    title: "Software Engr.",
+    title: "Senior Software Engr.",
     firstName: "EMMANUEL",
     LastName: "CHUKS",
     btnText: "Hire Me",
     image: person_project,
     hero_content: [
       {
-        count: "4+",
-        text: "Years of Experinse in Web development",
+        count: "5+",
+        text: "Years of Experience crafting Web & Fintech applictions",
       },
       {
         count: "10+",
