@@ -108,93 +108,107 @@ export const content = {
         name: "TypeScript",
         para: "A superset of JavaScript.",
         logo: ts,
-        descriptionLine1: "I leverage TypeScript to write clean, type-safe code, reducing bugs and ensuring the scalability of the applications I build..",
+        descriptionLine1:
+          "I leverage TypeScript to write clean, type-safe code, reducing bugs and ensuring the scalability of the applications I build..",
       },
       {
         name: "NextJS",
         para: " A framework built on top of React",
         logo: next,
-        descriptionLine1: "I use NextJS to develop performant web applications, focusing on server-side rendering and static site generation for better SEO and user experience.",
-      },    
+        descriptionLine1:
+          "I use NextJS to develop performant web applications, focusing on server-side rendering and static site generation for better SEO and user experience.",
+      },
       {
         name: "React.JS",
         para: "JavaScript Library",
         logo: react,
-        descriptionLine1: "I create dynamic and reusable UI components with ReactJS, delivering seamless and interactive user experiences.",
-      },      
+        descriptionLine1:
+          "I create dynamic and reusable UI components with ReactJS, delivering seamless and interactive user experiences.",
+      },
       {
         name: "JavaScript",
         para: "Versatile programming language.",
         logo: js,
-        descriptionLine1: "JavaScript is my go-to for implementing core application logic, enabling rich interactivity and functionality in web interfaces.",
+        descriptionLine1:
+          "JavaScript is my go-to for implementing core application logic, enabling rich interactivity and functionality in web interfaces.",
       },
       {
         name: "Zustand",
         para: "Global state manager.",
         logo: zustand,
-        descriptionLine1: "I manage complex application state efficiently using Zustand, ensuring smooth data flow and improved performance.",
+        descriptionLine1:
+          "I manage complex application state efficiently using Zustand, ensuring smooth data flow and improved performance.",
       },
       {
         name: "React-Query",
         para: "Global state manager.",
         logo: reactquery,
-        descriptionLine1: "I simplify data fetching and synchronization with React Query, providing users with a responsive and optimized experience.",
+        descriptionLine1:
+          "I simplify data fetching and synchronization with React Query, providing users with a responsive and optimized experience.",
       },
       {
         name: "Tailwind CSS",
         para: "Utility-first CSS framework for design.",
         logo: tailwind,
-        descriptionLine1: "Tailwind CSS empowers me to design responsive and visually appealing layouts quickly, maintaining consistent branding and style.",
+        descriptionLine1:
+          "Tailwind CSS empowers me to design responsive and visually appealing layouts quickly, maintaining consistent branding and style.",
       },
       {
         name: "Node.js",
         para: "Runtime environment for executing Js.",
         logo: nodejs,
-        descriptionLine1: "I collaborate with backend teams using NodeJS to debug and integrate APIs, ensuring seamless frontend-backend communication.",
-      },   
+        descriptionLine1:
+          "I collaborate with backend teams using NodeJS to debug and integrate APIs, ensuring seamless frontend-backend communication.",
+      },
       {
         name: "Express.JS",
         para: "Node Js frame work.",
         logo: express,
-        descriptionLine1: "I assist in setting up lightweight APIs with ExpressJS to enable smooth data exchanges between the client and server.",
-      }, 
+        descriptionLine1:
+          "I assist in setting up lightweight APIs with ExpressJS to enable smooth data exchanges between the client and server.",
+      },
       {
         name: "CSS3",
         para: "Style sheet web documents.",
         logo: css,
-        descriptionLine1: "I use CSS3 to style components, ensuring modern, responsive designs that enhance the user interface.",
+        descriptionLine1:
+          "I use CSS3 to style components, ensuring modern, responsive designs that enhance the user interface.",
       },
       {
         name: "HTML5",
         para: "HTML5 is a markup language.",
         logo: html,
-        descriptionLine1: "I structure web pages with semantic HTML5, improving accessibility and ensuring a solid foundation for my projects.",
+        descriptionLine1:
+          "I structure web pages with semantic HTML5, improving accessibility and ensuring a solid foundation for my projects.",
       },
       {
         name: "Git",
         para: "Distributed version control system.",
         logo: git,
-        descriptionLine1: "Git helps me collaborate effectively with my team, manage version control, and maintain a clean codebase.",
+        descriptionLine1:
+          "Git helps me collaborate effectively with my team, manage version control, and maintain a clean codebase.",
       },
       {
         name: "Jira",
         para: "Distributed version control system.",
         logo: jira,
-        descriptionLine1: "I use Jira to track tasks, manage sprints, and ensure the timely delivery of projects in an Agile environment.",
+        descriptionLine1:
+          "I use Jira to track tasks, manage sprints, and ensure the timely delivery of projects in an Agile environment.",
       },
       {
         name: "Azure_devops",
         para: " Cloud-based collaboration platform.",
         logo: azuredevops,
-        descriptionLine1: "I deploy and manage applications on Azure, utilizing its cloud services for scalable and reliable infrastructure.",
-      }, 
+        descriptionLine1:
+          "I deploy and manage applications on Azure, utilizing its cloud services for scalable and reliable infrastructure.",
+      },
       {
         name: "CI/CD",
         para: "software development lifecycle",
         logo: cicd,
-        descriptionLine1: "Automating deployment pipelines with CI/CD tools allows me to deliver updates quickly and ensure application stability.",
+        descriptionLine1:
+          "Automating deployment pipelines with CI/CD tools allows me to deliver updates quickly and ensure application stability.",
       },
-    
     ],
     icon: MdArrowForward,
   },
@@ -208,6 +222,11 @@ export const content = {
         logo: services_logo1,
       },
       {
+        title: "Fintech Solutions",
+        para: "Delivering secure, fast, and reliable payment solutions, including cards, POS, wallets, and gateways to power everyday transactions..",
+        logo: services_logo5,
+      },
+      {
         title: "Backend Development",
         para: "Collaborating with backend teams to integrate robust APIs and ensure seamless data flow between the frontend and backend systems.",
         logo: services_logo2,
@@ -216,12 +235,6 @@ export const content = {
         title: "API Development",
         para: "Designing and implementing efficient API integrations to enable dynamic and interactive web applications",
         logo: services_logo3,
-      },
-     
-      {
-        title: "Maintenance",
-        para: "Ensuring optimal performance, regular updates, and swift resolution of issues to keep web applications running smoothly.",
-        logo: services_logo5,
       },
     ],
   },
@@ -233,50 +246,58 @@ export const content = {
       {
         title: "HYDROGENPAY FINTECH",
         image: project0,
-        link:"https://dashboard.hydrogenpay.com/login",
-        description: "The Hydrogen payment application enables users to onboard by signing up, logging in, requesting products, and retrieving login credentials for seamless access to services."
+        link: "https://dashboard.hydrogenpay.com/login",
+        description:
+          "The Hydrogen payment application enables users to onboard by signing up, logging in, requesting products, and retrieving login credentials for seamless access to services.",
       },
       {
         title: "AWARRI AI",
         image: project00,
-        link:"https://backoffice-langeasy-tk7ash3eaa-uc.a.run.app/",
-        description: "The AI app streamlines the quality assurance workflow by annotating and auditing collected data, improving efficiency in data analysis"
+        link: "https://backoffice-langeasy-tk7ash3eaa-uc.a.run.app/",
+        description:
+          "The AI app streamlines the quality assurance workflow by annotating and auditing collected data, improving efficiency in data analysis",
       },
       {
         title: "LMS STUDENT REGISTRATION PORTAL",
         image: project4,
-        link:"https://student-portal-form.vercel.app/",
-        description:"An LMS student registration app for SAIL Innovation Lab allows candidates to enroll in Tech Talent, STEM, or Data Science programs seamlessly.",
+        link: "https://student-portal-form.vercel.app/",
+        description:
+          "An LMS student registration app for SAIL Innovation Lab allows candidates to enroll in Tech Talent, STEM, or Data Science programs seamlessly.",
       },
       {
         title: "LMS ADMINISTRATIVE PORTAL",
         image: project5,
-        link:"https://ssmp-admin-portal.vercel.app/",
-        description:"An administrative backoffice app for the LMS registration allows management to oversee and control the enrollment process, ensuring smooth operation and tracking",
+        link: "https://ssmp-admin-portal.vercel.app/",
+        description:
+          "An administrative backoffice app for the LMS registration allows management to oversee and control the enrollment process, ensuring smooth operation and tracking",
       },
       {
         title: "RUTHINAS CONCEPTZ",
         image: projecst5,
-        link:"https://ruthinaconcept.netlify.app/",
-        description:"A socal-influencer app that allows users to request services from Ruthina, a versatile performer specializing in voice-overs for commercials, narration, audiobooks, animations, and more, as well as video presentations for corporate training, online tutorials, and event hosting.",
+        link: "https://ruthinaconcept.netlify.app/",
+        description:
+          "A socal-influencer app that allows users to request services from Ruthina, a versatile performer specializing in voice-overs for commercials, narration, audiobooks, animations, and more, as well as video presentations for corporate training, online tutorials, and event hosting.",
       },
       {
         title: "BANK TOKEN OTP GENERATOR",
         image: project1,
-        link:"https://magnificent-palmier-e34b42.netlify.app/",
-        description: "A software application embedded in hardware used by banks to enhance security for online transactions."
+        link: "https://magnificent-palmier-e34b42.netlify.app/",
+        description:
+          "A software application embedded in hardware used by banks to enhance security for online transactions.",
       },
       {
         title: "SCHEDULE TRACKER",
         image: project2,
-        link:"https://hilarious-daifuku-bc7205.netlify.app/",
-        description:"A task tracker application helps teams manage tasks by allowing users to create, assign, set deadlines, track progress, and communicate efficiently.",
+        link: "https://hilarious-daifuku-bc7205.netlify.app/",
+        description:
+          "A task tracker application helps teams manage tasks by allowing users to create, assign, set deadlines, track progress, and communicate efficiently.",
       },
       {
         title: "API RANDOM QUOTE GENERATOR",
         image: project3,
-        link:"https://random-quote-generate.vercel.app/",
-        description:"An API random quote generator provides users with random quotes on demand, ideal for apps, websites, or inspiration tools.",
+        link: "https://random-quote-generate.vercel.app/",
+        description:
+          "An API random quote generator provides users with random quotes on demand, ideal for apps, websites, or inspiration tools.",
       },
     ],
   },
@@ -317,7 +338,6 @@ export const content = {
     image2: Hireme_person2,
     para: "“Cultivating digital experiences with a mastery of both front-end finesse and back-end prowess,  My commitment to crafting seamless, innovative solutions fuels my passion for creating captivating online landscapes. Welcome to a collaboration built on expertise and vision.”",
     btnText: "Hire Me",
-    
   },
   Contact: {
     title: "Lets Talk",
@@ -348,7 +368,6 @@ export const content = {
         icon: BsInstagram,
         link: "https://www.instagram.com/ephysians/",
       },
-      
     ],
   },
   Footer: {
