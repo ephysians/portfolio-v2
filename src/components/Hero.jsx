@@ -1,8 +1,6 @@
 import { content } from "../Content";
 import { Link as ScrollLink } from "react-scroll";
 
-
-
 const Hero = () => {
   const { hero } = content;
   return (
@@ -23,18 +21,34 @@ const Hero = () => {
         <div className="pb-16 px-6 pt-5">
           <h2 className="text-[50px] leading-loose">{hero.title}</h2>
 
-          <div className="flex flex-col mt-2 border">
+          {/* <div className="flex flex-col mt-2 ">
             {hero.hero_content.map((content, i) => (
               <div
                 key={i}
                 data-aos="fade-down"
                 data-aos-delay={i * 300}
-                className={`flex items-center w-80 gap-5 ${
-                  i === 1 && "flex-row-reverse text-right pt-2 w-full border"
+                className={`flex justify-center w-80 gap-5 ${
+                  i === 1 && "flex-row-reverse text-right pt-2 w-full "
                 }`}
               >
-                <h3 className="font-semibold border">{content.count}</h3>
-                <p className="border">{content.text}</p>
+                <h3 className="font-semibold ">{content.count}</h3>
+                <p className="">{content.text}</p>
+              </div>
+            ))}
+          </div> */}
+
+          <div className="flex flex-col items-center justify-center mt-2">
+            {hero.hero_content.map((content, i) => (
+              <div
+                key={i}
+                data-aos="fade-down"
+                data-aos-delay={i * 300}
+                className={`flex justify-center items-center w-80 gap-5 ${
+                  i === 1 && "flex-row-reverse text-right pt-2 w-full"
+                }`}
+              >
+                <h3 className="font-semibold">{content.count}</h3>
+                <p>{content.text}</p>
               </div>
             ))}
           </div>
@@ -66,7 +80,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
-
-
