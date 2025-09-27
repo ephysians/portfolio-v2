@@ -2,8 +2,15 @@ import { content } from "../Content";
 
 const Hireme = () => {
   const { Hireme } = content;
+  // const openResume = () => {
+  //   window.open('https://drive.google.com/file/d/1fvuy4ETlR5-_G73tYwlNeDZvb4zh1Nhm/view?usp=sharing', '_blank');
+
   const openResume = () => {
-    window.open('https://drive.google.com/file/d/1fvuy4ETlR5-_G73tYwlNeDZvb4zh1Nhm/view?usp=sharing', '_blank');
+      window.open(
+        "https://drive.google.com/file/d/11qV5ahSvEBJhmDIIHymjhYAdNBcYF7_7/view?usp=sharing=sharing",
+        "_blank"
+      );
+    
   };
   return (
     <section className="bg-bg_light_primary" id="hireme">
